@@ -106,7 +106,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ## Authors
 
 * **Raef Mousheimish** - *Initial work* - [MchRaef](https://github.com/MchRaef)
-Check the [Authors](Authors) file for more info.
+
+Check the [Authors](AUTHORS) file for more info.
 
 ## License
 
