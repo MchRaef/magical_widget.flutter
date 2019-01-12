@@ -91,7 +91,7 @@ So if the __withProvider__ argument is set to true, you can instantly use the `M
 In case, you do not want this behavior, you need to explicitly set __withProvider__ to false, then no inherited widget will be generated.
 
 ## Resources
-For an example on how to use the magical widget please refer to the [TK-example package](https://github.com/MchRaef/magical_widget.flutter/example) provided in this github repo.
+For an example on how to use the magical widget please refer to the [example package](https://github.com/MchRaef/magical_widget.flutter/tree/master/example) provided in this github repo.
 
 For a complete tutorial about this package, please refer to this [TK-medium article](medium)
 
@@ -101,15 +101,16 @@ You can always refer to the API documentation related to these packages:
 
 ## Contributing
 
-Please read [TK-CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ## Authors
 
 * **Raef Mousheimish** - *Initial work* - [MchRaef](https://github.com/MchRaef)
+Check the [Authors](Authors) file for more info.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
 
