@@ -1,0 +1,19 @@
+name: magical_widget
+description: A Flutter package that helps to generate boilerplate codes in order to easily and magically manipulate the states of graphical user interface using streams and BLoCs. This package contains the annotations (aka. the magical words)
+version: 0.9.0
+author: Raef Mousheimish <mch.raef@gmail.com>
+homepage:
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+

@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      magical_widget_generator|magical_builder:
+        enabled: true
+
+builders:
+  magical_builder:
+    target: ":magical_widget_generator"
+    import: "package:magical_widget_generator/builder.dart"
+    builder_factories: ["magicalBuilder"]
+    build_extensions: {".dart": [".magical.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
