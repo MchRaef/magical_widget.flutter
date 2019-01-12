@@ -22,7 +22,7 @@ dev_dependencies:
 The last step to finish the _pubspec.yaml_ file is to update your _dependencies_ key and include the main [magical widget](https://pub.dartlang.org/packages/magical_widget) package that will expose the annotation.
 In addition, the package makes use of the BLoC state management offered by dart, so you should also include the [rxdart](https://pub.dartlang.org/packages/rxdart) package.
 ```
-dev_dependencies:
+dependencies:
   magical_widget: ^1.0.0
   rxdart: ^0.20.0
 ```
