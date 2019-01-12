@@ -103,10 +103,6 @@ You can always refer to the API documentation related to these packages:
 
 Please read [TK-CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Raef Mousheimish** - *Initial work* - [MchRaef](https://github.com/MchRaef)
