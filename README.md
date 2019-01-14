@@ -93,7 +93,7 @@ In case, you do not want this behavior, you need to explicitly set __withProvide
 ## Resources
 For an example on how to use the magical widget please refer to the [example package](https://github.com/MchRaef/magical_widget.flutter/tree/master/example) provided in this github repo.
 
-For a complete tutorial about this package, please refer to this [TK-medium article](medium)
+For a complete tutorial about this package, please refer to this [medium article](https://medium.com/@raefmousheimish/flutter-source-generation-1e99cc9fdad).
 
 You can always refer to the API documentation related to these packages:
 * [magical_widget](https://pub.dartlang.org/packages/magical_widget)
@@ -115,4 +115,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 ## Acknowledgments
 
-* Inspired by the active and motivated Dart and Flutter communities, especially by the built_values package developed by David Morgan TK
+* Inspired by the active and motivated Dart and Flutter communities, especially by the built_values package developed by David Morgan
