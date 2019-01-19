@@ -1,6 +1,6 @@
 name: magical_widget_generator
 description: A Flutter package that helps to generate boilerplate codes in order to easily and magically manipulate the states of graphical user interface using streams and BLoCs. This package contains the actual source code generation logic.
-version: 1.0.0
+version: 1.0.1
 author: Raef Mousheimish <mch.raef@gmail.com>
 homepage: https://github.com/MchRaef/magical_widget.flutter
 

@@ -99,7 +99,10 @@ void _writeDefaultConst(
 void writeMagicalBlocClass(
     String name, String controllerName, StringBuffer buffer) {
   _writeClass(name, buffer);
-  buffer.writeln('$name(){ firstLoad(); }');
+  buffer.writeln('static MagicalBloc _singleton = MagicalBloc._internal();');
+  buffer.writeln('MagicalBloc._internal(){firstLoad();}');
+
+  buffer.writeln('factory $name(){ _singleton = _singleton?? MagicalBloc._internal(); return _singleton; }');
   _writeSubjectComponents(controllerName, buffer);
   _writeFirstLoad(controllerName, buffer);
   _writeChangeUIElement(controllerName, buffer);
@@ -145,7 +148,8 @@ void _writeSubjectComponents(String name, StringBuffer buffer) {
     $name get $magicalValue => _magicalSubject.value;
 
     Future dispose() async {
-    _magicalSubject.close();
+    await _magicalSubject.close();
+    _singleton = null;
     }
     ''');
 }
